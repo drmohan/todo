@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: teal;
+    color: #7f7fff;
 }
 
 /*********** HEADER ************/
 
 header {
     font-family: 'Roboto Slab', serif;
-    background-color: teal;
+    background-color: #7f7fff;
     color: white;
     padding: 10px;
     text-align: center;
@@ -30,18 +30,24 @@ h1 {
     margin: 0 auto;
     padding-top: 10px;
     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .list {
+    display: block;
+    float: left;
     background-color: #eee;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 40px;
+    margin: 50px;
     margin-bottom: 10px;
 }
 
+
 .list a {
     text-decoration: none;
-    color: teal;
+    color: #000033;
 }
 
 .list-title {
@@ -53,13 +59,19 @@ h1 {
 button {
     border-radius: 10px;
     background-color: white;
-    border: 1px solid teal;
+    border: 1px solid #7f7fff;
     padding: 10px;
-    color: teal;
+    color: #7f7fff;
     font-size: 0.8em;
 }
 
 input {
     padding: 10px;
     font-size: 0.8em;
+}
+
+.new_list {
+    width: 100%;
+    margin-top: 35%;
+    margin-left: 42%;
 }
